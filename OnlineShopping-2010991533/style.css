@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(224, 242, 248);
+}
+.heading{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom:1.5 rem;
+    text-align: center;
+    padding-top: 150px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card{
+    width: 23%;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    padding:1.5em;
+    margin-bottom: 2em;
+}
+.category,.price,.title{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin:1em;
+    font-size:1.2rem;
+
+}
+.images{
+    width:80%;
+}
+.button{
+    border-color:lightblue;
+    background-color:lightblue ;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	line-height: 35px;
+	position:absolute;
+    font-size: 25px;
+}
+nav ul{
+    list-style: none;
+    float:right;
+}
+nav li{ 
+    display:inline-block;
+    width:130px;
+    margin-left: 10px;
+    text-align: center;
+    height:50px;
+    line-height: 30px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+li:hover{
+  background-color: lightpink;
+  border-radius: 5px;
+  height: 25px;
+}
+#home{
+    background-image: url("/Images/shop3.jpg");
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    width:100%;
+    padding-top: 100px;
+
+}
+.content{
+    text-align: center;
+    padding-top: 100px;
+    color:black;
+    font-size: 35px;
+    
+}
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  #submit {
+    background-color:#70c1f4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  
+  }
+  .ContactUs{
+    background-color: rgb(224, 242, 248);
+  }
+  #submit:hover {
+    background-color: #87CEFA;
+    border-radius:10px;
+  }
+  #contact{
+	color:black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .form{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #btn{
+    background-color:#31a2e9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px; 
+    font-family: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  #submit {
+    background-color:#70c1f4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  
+  }
+  .ContactUs{
+    background-color: rgb(224, 242, 248);
+  }
+  #submit:hover {
+    background-color: #87CEFA;
+    border-radius:10px;
+  }
+  #contact{
+	color:black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .form{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+.Services .index{
+    text-align: center;
+    font-size: 50px;
+}
+.Services{
+	padding:80px;
+	
+}
+
+.Services .Contents{ 
+ display: flex;
+}
+.Services .Contents .box{
+	width: 30%;
+	padding:15px;
+}
+.Services .Contents .box .inner{
+	background-color:black;
+}
+
+.Services .Contents .box .inner .img img{
+	width: 100%;
+  height:250px;
+}
+.Services .Contents .box .inner .text{
+	padding:30px;
+}
+
+.Services .Contents .box .inner .text h3{
+  font-size: 20px;
+  font-weight: 500;
+  color:#ffffff;
+  text-align: center;
+}
+.Services .Contents .box .inner .text p{
+	font-size: 15px;
+	color:#ffffff;
+	text-align: center;
+}
+.index{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 13px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}

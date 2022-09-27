@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#ContactUs">Contact Us</a></li>
+            <li><a href="#Add To Cart">Add to Cart</li>
+        </ul>
+        </nav>
+        </header>
+    <div id="home">
+    <h1 class="heading">Online Shopping</h1>
+    </div>
+    <section id="products">
+        <h1 class="index">Products</h1>
+        <form class="example" action="" style="margin:auto;max-width:600px">
+            <input type="text" placeholder="Search Products" name="search2" id="searchBar" list="abc">
+            <ul id="resultList"></ul>
+
+            <datalist id="abc"></datalist>
+            <button type="submit" onclick="searchshow()"><i class="fa fa-search"></i></button>
+          </form>
+    <div id="cards" class="cards">
+        </div>
+    </div>
+    </section>
+    <section class="Services" id="Services">
+        <h1 class="index">Services</h1>
+        <div class="Contents">
+               <div class="box">
+                      <div class="inner">
+                             <div class="img">
+                                   <img src="/Images/fast.jpg" alt="not available" />
+                             </div>
+                 <div class="text">
+                        <h3> Fastest Door Delivery</h3>
+                        
+                 </div>
+                      </div>
+               </div>
+                   <div class="box">
+                      <div class="inner">
+                             <div class="img">
+                                   <img src="/Images/anytime.jpg" alt="not available" />
+                             </div>
+                 <div class="text">
+                        <h3>Order Anytime and Anywhere</h3>
+                 </div>
+                      </div>
+               </div>
+               <div class="box">
+                      <div class="inner">
+                             <div class="img">
+                                   <img src="/Images/track.jpg" alt="not available" />
+                             </div>
+                             <div class="text">
+                                <h3>Track Your Order Very Easily</h3>
+                             </div>
+                      </div>
+               </div>
+        </div>
+</section>
+
+<section class="ContactUs" id="ContactUs">
+    <h1 id="contact"><b>Contact Us</b></h1>
+    <form class="form">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name.." required><br><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" placeholder="Your Email.." required><br><br>
+        <label for="subject">Subject</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Message.." required><br><br>
+        <label for="Message">Message</label><br>
+        <textarea id="Message" name="message" placeholder="Message" cols="6" rows="8" required></textarea><br>
+        <input type="Submit" value="Submit" id="submit">
+    </form>
+    <div id="api-1" class="images full">
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
