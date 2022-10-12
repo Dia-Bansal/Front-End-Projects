@@ -1,0 +1,84 @@
+{
+    "Questions":[
+        {
+            "Quiz":"Q.1) What does HTML stand for?",
+            "option1":"Hyper Text Markup Language",
+            "option2":"Home Tool Markup Language",
+            "option3":"Hyper Type Markup Language",
+            "option4":"Hyper Link and Text Markup Language",
+            "answer":"Hyper Text Markup Language"
+        },
+        {
+            "Quiz":"Q.2) Which is the most appropriate HTML tag to create a  numbered lists?",
+            "option1":"<dl>",
+            "option2":"<ul>",
+            "option3":"<li>",
+            "option4":"<ol>",
+            "answer":"<ol>"
+        },
+        {
+            "Quiz":"Q.3) Which of the following tag is used intended for navigation in HTML5?",
+            "option1":"nav",
+            "option2":"footer",
+            "option3":"section",
+            "option4":"navigation tag",
+            "answer":"nav"
+        },
+        {
+            "Quiz":"Q.4) Which CSS property allow to wrap a block of text around an image?",
+            "option1":"wrap",
+            "option2":"push",
+            "option3":"float",
+            "option4":"align",
+            "answer":"float"
+        },
+        {
+            "Quiz":"Q.5) How to create a checkbox in HTML?",
+            "option1":"<input type='checkbox'>",
+            "option2":"<input type='button'>",
+            "option3":"<checkbox>",
+            "option4":"<input type='check'>",
+            "answer":"<input type='checkbox'>"
+        },
+        {
+            "Quiz":"Q.6) Which of the following element is responsible for making the text italic in HTML?",
+            "option1":"<i>",
+            "option2":"<italic>",
+            "option3":"<it>",
+            "option4":"<pre>",
+            "answer":"<i>"
+        },
+        {
+            "Quiz":"Q.7) Which of the following tag is used to add rows int the table?",
+            "option1":"<td> and </td>",
+            "option2":"<th> and </th>",
+            "option3":"<tr> and </tr>",
+            "option4":"None of the above",
+            "answer":"<tr> and </tr>"
+        },
+        {
+            "Quiz":"Q.8)Which of the following attribute is used to provide a unique name to an element?",
+            "option1":"class",
+            "option2":"id",
+            "option3":"type",
+            "option4":"None of the above",
+            "answer":"id"
+        },
+        {
+            "Quiz":"Q.9)Which of the following HTML tag is used to display the text with scrolloing effect?",
+            "option1":"<marquee>",
+            "option2":"<scroll>",
+            "option3":"<div>",
+            "option4":"None of the above",
+            "answer":"<marquee>"
+        },
+        {
+            "Quiz":"Q.10) Which of the following HTML tag is the special formatting tag?",
+            "option1":"<p>",
+            "option2":"<b>",
+            "option3":"<pre>",
+            "option4":"None of the above",
+            "answer":"<pre>"
+        }
+    ]
+}
